@@ -1,11 +1,14 @@
-import './App.css'
+import Navbar from "./components/layout/Navbar";
+import HeroSection from "./components/sections/HeroSection";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="bg-red-700">
+      <Navbar />
+      <HeroSection />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
